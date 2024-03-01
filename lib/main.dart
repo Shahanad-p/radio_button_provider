@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         create: (context) => ChangeButtonProvider(),
         child: const MaterialApp(
           home: HomePage(),
+          title: 'hello',
           debugShowCheckedModeBanner: false,
         ));
   }
